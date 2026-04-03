@@ -33,7 +33,7 @@
 	let warningMarkers: MountedMarker[] = [];
 	let message = MAPBOX_TOKEN
 		? 'Loading map...'
-		: 'Map preview mode. Add NEXT_PUBLIC_MAPBOX_TOKEN or PUBLIC_MAPBOX_TOKEN for live tiles.';
+		: 'Maps: ';
 	let mapReady = false;
 	let mapboxglModule: typeof import('mapbox-gl') | null = null;
 
